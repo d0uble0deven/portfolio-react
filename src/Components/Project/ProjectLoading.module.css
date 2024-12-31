@@ -1,0 +1,82 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/*/ Project Sidebar /*/
+
+.aside {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  right: 3rem;
+  top: 0;
+  border-left: 1px solid lightgray;
+}
+
+.headingContainer {
+  width: 100%;
+  height: 80%;
+}
+
+.projectTitle {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 3rem 3rem 2rem 3rem;
+}
+
+.projectDesc {
+  padding-inline: 3rem;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.location {
+  padding-left: 3rem;
+  padding-top: 3rem;
+  font-weight: 300;
+}
+
+.completion {
+  padding-top: 3rem;
+  padding-inline: 2.5rem;
+  font-weight: 300;
+}
+
+.nextProjectContainer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100vw;
+    height: auto;
+  }
+
+  .aside {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 0;
+    border-left: none;
+  }
+
+  .headingContainer {
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+
+  .projectDesc {
+    padding-bottom: 3rem;
+  }
+
+  .footerContainer {
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,151 @@
+.intro {
+  width: 600px;
+  height: 100vh;
+  /* background-color: whitesmoke; */
+  border-right: 1px solid rgb(190, 190, 190);
+  position: relative;
+}
+
+.topContainer {
+  width: 100%;
+  height: 430px;
+  position: relative;
+}
+
+.title {
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 5.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+}
+
+.introImage {
+  width: 9rem;
+  height: 11.5rem;
+  /* background-color: black; */
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  object-fit: cover;
+}
+
+.bottomContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 2rem 3rem 1rem 3rem;
+}
+
+.desc {
+  width: 30rem;
+  font-size: 12px;
+  padding: 0rem 3rem 1rem 3rem;
+  font-family: sans-serif;
+  line-height: 1.2rem;
+}
+
+.link {
+  color: black;
+}
+
+.link > p {
+  padding: 0rem 3rem 0rem 3rem;
+  font-size: 14px;
+  font-family: the-serif;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    width: 100vw;
+    height: auto;
+  }
+
+  .topContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+  }
+
+  .title {
+    position: relative;
+    top: 0;
+    left: 0rem;
+    padding-top: 6rem;
+    padding-inline: auto;
+  }
+
+  .introImage {
+    width: calc(100vw - 45%);
+    height: 32rem;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 6rem;
+    margin-right: 3rem;
+  }
+
+  .bottomContainer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgb(190, 190, 190);
+  }
+
+  .heading {
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    padding-inline: 1.2rem;
+  }
+
+  .desc {
+    width: auto;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding-bottom: 4rem;
+    padding-inline: 1.2rem;
+  }
+
+  .link {
+    padding-bottom: 0rem;
+  }
+
+  .link > p {
+    padding-inline: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .topContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title {
+    width: auto;
+    text-align: center;
+    padding: 0;
+    top: 4rem;
+  }
+
+  .introImage {
+    top: 3rem;
+    width: 90%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 2rem;
+  }
+}

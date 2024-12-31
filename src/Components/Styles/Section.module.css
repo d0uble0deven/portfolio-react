@@ -1,0 +1,228 @@
+.section {
+  width: 154vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: whitesmoke; */
+}
+
+.container {
+  width: 700px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 2rem;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.heading {
+  width: 100%;
+  padding-inline: 7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.9rem;
+}
+
+.descLink {
+  padding-top: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  font-family: the-serif;
+}
+
+.projectLink {
+  position: absolute;
+  color: whitesmoke;
+  /* color: black; */
+  bottom: 4rem;
+  left: calc(100% - 50% - (112px / 2));
+  text-decoration: underline;
+  font-family: the-serif;
+  font-size: 14px;
+}
+
+.mainImage {
+  width: 600px;
+  height: 100vh;
+  background-color: black;
+  object-fit: cover;
+}
+
+.journalContainer {
+  width: 800px;
+  height: 100vh;
+  background-color: #f06446;
+  position: relative;
+}
+
+.journalHeading {
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  width: 29rem;
+  padding: 2rem 0 1rem 3rem;
+  line-height: 1.9rem;
+}
+
+.a {
+  color: whitesmoke;
+  /* color: black; */
+  text-decoration: underline;
+}
+
+.journalLink {
+  text-decoration: none;
+}
+
+.articleLink {
+  color: white;
+  padding-left: 3rem;
+  text-decoration: underline;
+  font-size: 15px;
+  font-family: the-serif;
+}
+
+.journalTitle {
+  opacity: 0;
+  width: auto;
+  height: 0rem;
+  font-size: 5rem;
+  font-size: clamp(5rem, 3.5999999999999996rem + 7.000000000000001vw, 12rem);
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 3rem;
+}
+
+.animatedTitle {
+  width: auto;
+  height: 0rem;
+  font-size: 5rem;
+  font-size: clamp(5rem, 3.59rem + 8vw, 12rem);
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 1.8rem;
+  animation: titleAnimation 1s ease forwards;
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+@keyframes titleAnimation {
+  from {
+    height: 0;
+  }
+  to {
+    height: 13rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    top: 5rem;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    padding-top: 15rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .descLink {
+    font-size: 2rem;
+    padding-bottom: 12rem;
+    padding-inline: 1.5rem;
+  }
+
+  .a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+  }
+
+  .projectLink {
+    position: relative;
+    bottom: 0;
+    padding-bottom: 5rem;
+  }
+
+  .mainImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .journalContainer {
+    width: 100%;
+    height: 1000px;
+  }
+
+  .journalHeading {
+    padding-top: 6rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    width: auto;
+    padding-inline: 3rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .heading {
+    padding-inline: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    padding-top: 10rem;
+  }
+
+  .descLink {
+    font-size: 1.1rem;
+    padding-bottom: 9rem;
+  }
+
+  .journalHeading {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-inline: 1.5rem;
+  }
+
+  .articleLink {
+    padding-left: 1.5rem;
+  }
+
+  .journalTitle {
+    font-size: 5rem;
+    bottom: 5rem;
+    left: 1.5rem;
+  }
+
+  .journalContainer {
+    height: 700px;
+    padding-bottom: 8rem;
+  }
+}

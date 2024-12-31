@@ -1,0 +1,1290 @@
+.smartphone {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.18px;
+  --vmax: 17.28px;
+  --vmin: 9.18px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.013123;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.210752;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  aspect-ratio: 1/0.4856965174;
+  border: 4px solid var(--c-black);
+  overflow: hidden;
+  pointer-events: none;
+  width: auto;
+  height: calc(var(--vh) * 30);
+  border-radius: calc(var(--vh) * 5);
+  flex-shrink: 0;
+  filter: drop-shadow(1vh 1vh 4.5vh hsla(var(--c-pink-params) / 0.5));
+  /* transform: translateX(calc((var(--scroll) - 0.373) * 50%))
+    rotate(calc(-15deg - (var(--scroll) - 0.373) * 60deg)); */
+  margin-top: 300px; // added by me
+}
+
+video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ilygirl {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 6.03px;
+  --vmax: 17.28px;
+  --vmin: 6.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(255, 0, 149);
+  --scroll-progress: 0.063327;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  position: relative;
+  width: calc(var(--vh) * 125.56);
+  height: 100%;
+  --scroll: 0.49911;
+  margin: 0 500px; // added by me
+}
+
+.ilygirl_title {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 6.03px;
+  --vmax: 17.28px;
+  --vmin: 6.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(255, 0, 149);
+  --scroll-progress: 0.063327;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.49911;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  flex-shrink: 0;
+  color: var(--c-pink);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 20px;
+  /* transform: translateX(calc((var(--scroll) - 0.373) * 3em)); */
+}
+
+.line1 {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 6.03px;
+  --vmax: 17.28px;
+  --vmin: 6.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(255, 0, 149);
+  --scroll-progress: 0.063327;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.49911;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  color: var(--c-pink);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.line2 {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 6.03px;
+  --vmax: 17.28px;
+  --vmin: 6.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(255, 0, 149);
+  --scroll-progress: 0.063327;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.49911;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  color: var(--c-pink);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  transform: translateX(0.78em);
+}
+
+.ilygirl_text {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 4.6000000000000005px;
+  --vmax: 17.28px;
+  --vmin: 4.6000000000000005px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.083454;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.587273;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: fot-rodin-pron, sans-serif;
+  font-weight: 600;
+  flex-shrink: 0;
+  line-height: 1.8;
+  margin-top: 300px; // added by me
+}
+
+.section_inner,
+.ilygirl_content {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 6.03px;
+  --vmax: 17.28px;
+  --vmin: 6.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.115938;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.718415;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: calc(var(--vh) * 15);
+  height: 100%;
+}
+
+@media (min-width: 640px) {
+  .smartphone::after {
+    border-radius: calc(var(--vh) * 1.35);
+  }
+}
+
+.smartphone::after {
+  content: "";
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  height: 36%;
+  aspect-ratio: 0.25;
+  background-color: var(--c-black);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-user-select: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+}
+
+/* About page */
+.about {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.03px;
+  --vmax: 17.28px;
+  --vmin: 9.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.178829;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  position: relative;
+  width: calc(var(--vh) * 147.56);
+  height: 100%;
+  --scroll: 0.538039;
+  margin: 0 500px; // added by me
+}
+
+.about_content {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.03px;
+  --vmax: 17.28px;
+  --vmin: 9.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.178829;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.538039;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: calc(var(--vh) * 15);
+  height: 100%;
+}
+
+.about_title {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.03px;
+  --vmax: 17.28px;
+  --vmin: 9.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.178829;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.538039;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  flex-shrink: 0;
+  color: var(--c-green);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 20px;
+  /* transform: translateX(calc(var(--scroll) * 3em)); */
+}
+
+.about_animation {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.03px;
+  --vmax: 17.28px;
+  --vmin: 9.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.178829;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.538039;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  aspect-ratio: 1/0.4856965174;
+  border: 4px solid var(--c-black);
+  overflow: hidden;
+  pointer-events: none;
+  width: auto;
+  height: calc(var(--vh) * 30);
+  border-radius: calc(var(--vh) * 5);
+  flex-shrink: 0;
+  filter: drop-shadow(1vh 1vh 4.5vh hsla(var(--c-green-params) / 0.5));
+  /* transform: translateX(calc(50% - var(--scroll) * 100%))
+    rotate(calc(-15deg + var(--scroll) * 60deg)); */
+}
+
+.about_text {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.03px;
+  --vmax: 17.28px;
+  --vmin: 9.03px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.178829;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.538039;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  line-height: 1.8;
+  margin-top: 300px; // added by me
+}
+
+/* Profile */
+.profile {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  position: relative;
+  width: calc(var(--vh) * 180.78);
+  height: 100%;
+  --scroll: 0.481861;
+  margin: 0 500px; // added by me
+}
+
+.profile_content {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: calc(var(--vh) * 15);
+  height: 100%;
+}
+
+.profile_title {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  flex-shrink: 0;
+  color: var(--c-blue);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 20px;
+  /* transform: translateX(calc(var(--scroll) * 3em)); */
+}
+
+.line1 {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  color: var(--c-blue);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.line2 {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  font: inherit;
+  font-family: "OT Yokai";
+  font-weight: 700;
+  color: var(--c-blue);
+  font-size: var(--fs-section-main);
+  line-height: 0.7;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  transform: translateX(0.78em);
+}
+
+.profile_animation {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  aspect-ratio: 1/0.4856965174;
+  border: 4px solid var(--c-black);
+  overflow: hidden;
+  pointer-events: none;
+  width: auto;
+  height: calc(var(--vh) * 30);
+  border-radius: calc(var(--vh) * 5);
+  flex-shrink: 0;
+  filter: drop-shadow(1vh 1vh 4.5vh hsla(var(--c-blue-params) / 0.5));
+  /* transform: translateX(calc(50% - var(--scroll) * 100%))
+    rotate(calc(var(--scroll) * -45deg)); */
+}
+
+.profile_textwrap {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile_textColumns {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 2em;
+  width: 52em;
+}
+
+.profile_text {
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  width: 25em;
+  margin-top: 300px; // added by me
+}
+
+.twitterLink {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+  transform: translateX(27em);
+}
+
+.link {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  transition-property: opacity;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.3, 0.1, 0.1, 1);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.twitterLink_logo {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  color: inherit;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.twitterLink_text {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.19px;
+  --vmax: 17.28px;
+  --vmin: 9.19px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(0, 128, 255);
+  --scroll-progress: 0.286536;
+  --g-opacity: 1;
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.481861;
+  color: inherit;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  margin: 0;
+} */
+
+/* Ticker */
+.ticker-wrap {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  position: fixed;
+  bottom: 0;
+  height: 3.5rem;
+  background-color: #ffca46;
+}
+.ticker {
+  display: inline-block;
+  margin-top: 5px;
+  animation: marquee 60s linear infinite;
+}
+.item-collection-1 {
+  position: relative;
+  left: 0%;
+  animation: swap 20s linear infinite;
+}
+
+.item {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: black;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+/* Transition */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes swap {
+  0%,
+  50% {
+    left: 0%;
+  }
+  50.01%,
+  100% {
+    left: 100%;
+  }
+}
