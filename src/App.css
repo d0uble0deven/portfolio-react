@@ -60,6 +60,8 @@ body {
   transform: rotate(-90deg) translateX(-100vh);
   overflow-x: hidden;
   overflow-y: scroll;
+  border: magenta 5px dotted;
+  margin: 0;
 }
 
 .content-container {
@@ -69,6 +71,7 @@ body {
   height: fit-content;
   transform-origin: top left;
   transform: rotate(90deg) translateY(-100vh);
+  margin: 0;
 }
 
 .box1 {

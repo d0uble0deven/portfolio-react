@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Pages/Home'
-import Loading from './components/Project/Loading';
+import Loading from './Components/SVGComponents/Hands';
 
 
 function App() {

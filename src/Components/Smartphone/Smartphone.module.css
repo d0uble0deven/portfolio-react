@@ -1,0 +1,99 @@
+.smartphone {
+  line-height: 1;
+  --rem: 16;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-pink: hsl(325deg 100% 50%);
+  --c-pink-params: 325deg 100% 50%;
+  --c-green: hsl(85deg 100% 50%);
+  --c-green-params: 85deg 100% 50%;
+  --c-blue: hsl(210deg 100% 50%);
+  --c-blue-params: 210deg 100% 50%;
+  --fs-text: 2vh;
+  --fs-small-text: 1.5vh;
+  --fs-section-main: 20vh;
+  --fs-section-sub: 10vh;
+  --margin: 20px;
+  --vw: 17.28px;
+  --vh: 9.18px;
+  --vmax: 17.28px;
+  --vmin: 9.18px;
+  --c-bg: rgba(0, 0, 0, 0);
+  --c-highlight: rgb(149, 255, 0);
+  --scroll-progress: 0.013123;
+  --g-opacity: 1;
+  color: var(--c-white);
+  font-family: "PP Radio Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-text);
+  font-feature-settings: "palt";
+  font-synthesis: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  --scroll: 0.210752;
+  box-sizing: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  aspect-ratio: 1/0.4856965174;
+  border: 4px solid var(--c-black);
+  overflow: hidden;
+  pointer-events: none;
+  width: auto;
+  height: calc(var(--vh) * 30);
+  border-radius: calc(var(--vh) * 5);
+  flex-shrink: 0;
+  filter: drop-shadow(1vh 1vh 4.5vh hsla(var(--c-pink-params) / 0.5));
+  /* transform: translateX(calc((var(--scroll) - 0.373) * 50%))
+      rotate(calc(-15deg - (var(--scroll) - 0.373) * 60deg)); */
+  margin-top: 300px; /* added by me */
+}
+
+.video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 640px) {
+  .smartphone::after {
+    border-radius: calc(var(--vh) * 1.35);
+  }
+}
+
+.smartphone::after {
+  content: "";
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  height: 36%;
+  aspect-ratio: 0.25;
+  background-color: var(--c-black);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-user-select: inherit;
+  user-select: inherit;
+  touch-action: inherit;
+  backface-visibility: inherit;
+  -webkit-user-drag: inherit;
+  -webkit-tap-highlight-color: inherit;
+}

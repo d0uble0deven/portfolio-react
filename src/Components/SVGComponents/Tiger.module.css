@@ -1,0 +1,11 @@
+svg .tiger-path {
+  stroke-dasharray: 101953.2421875; /* Replace with a fixed value for testing */
+  stroke-dashoffset: 101953.2421875; /* Same value as dasharray */
+  animation: dash 2s linear infinite; /* Loop to confirm visibility */
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
