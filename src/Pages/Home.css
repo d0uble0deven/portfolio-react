@@ -51,7 +51,7 @@
   filter: drop-shadow(1vh 1vh 4.5vh hsla(var(--c-pink-params) / 0.5));
   /* transform: translateX(calc((var(--scroll) - 0.373) * 50%))
     rotate(calc(-15deg - (var(--scroll) - 0.373) * 60deg)); */
-  margin-top: 300px; // added by me
+  margin-top: 300px; /* added by me */
 }
 
 video {
@@ -114,18 +114,18 @@ video {
   width: calc(var(--vh) * 125.56);
   height: 100%;
   --scroll: 0.49911;
-  margin: 0 500px; // added by me
+  margin: 0 500px; /* added by me */
 }
 
 #ILYGIRL {
-  margin: 0 500px 0 0; // added by me
+  margin: 0 500px 0 0; /* added by me */
 }
 
 @media (max-width: 768px) {
   .ilygirl,
   .about,
   .profile {
-    margin: 0; // added by me
+    margin: 0; /* added by me */
   }
 }
 
@@ -321,7 +321,7 @@ section {
   font-weight: 600;
   flex-shrink: 0;
   line-height: 1.8;
-  margin-top: 300px; // added by me
+  margin-top: 300px; /* added by me */
 }
 
 .section_inner,
@@ -448,7 +448,7 @@ section {
   width: calc(var(--vh) * 147.56);
   height: 100%;
   --scroll: 0.538039;
-  margin: 0 500px; // added by me
+  margin: 0 500px; /* added by me */
 }
 
 .about_content {
@@ -645,7 +645,7 @@ section {
   padding: 0;
   flex-shrink: 0;
   line-height: 1.8;
-  margin-top: 300px; // added by me
+  margin-top: 300px; /* added by me */
 }
 
 /* Profile */
@@ -694,7 +694,7 @@ section {
   width: calc(var(--vh) * 180.78);
   height: 100%;
   --scroll: 0.481861;
-  margin: 0 500px; // added by me
+  margin: 0 500px; /* added by me */
 }
 
 .profile_content {
@@ -984,7 +984,7 @@ section {
   padding: 0;
   line-height: 1.8;
   width: 25em;
-  margin-top: 300px; // added by me
+  margin-top: 300px; /* added by me */
 }
 
 .twitterLink {
