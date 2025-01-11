@@ -97,39 +97,95 @@ const scrollRotate = () => {
               </p>
         </header> */}
 
-        {/* <header className="header"> */}
-          <div className="title-container">
-            <h1 className="title-animated">Dev Govindji</h1>
-          </div>
-          <a href="mailto:dev.govindji.software@gmail.com?subject=Portfolio Site Inquiry&body=Hi Dev, I am interested in working with you.">Software Engineer for hire!</a>
-     {/* </header> */}
-
-        <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
-          <DualSection 
-            section1={{
-              type: 'svg-shark',
-              text: 'This is some sample text for the second section.'
-            }}
-              section2={{
-                type: 'svg-stallion',
+        <section className="section ilygirl" id="HOME" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+          <header className="header">
+            <div className="title-container">
+              <h1 className="title-animated">Dev Govindji</h1>
+            </div>
+            <a href="mailto:dev.govindji.software@gmail.com?subject=Portfolio Site Inquiry&body=Hi Dev, I am interested in working with you.">Software Engineer for hire!</a>
+          </header>
+          <section className="section ilygirl" id="HOME" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+            <DualSection 
+              section1={{
+                type: 'svg-hands',
                 text: 'This is some sample text for the second section.'
-            }}
+              }}
+                section2={{
+                  type: 'image',
+                  src: '/src/assets/images/me.jpg',
+                  alt: 'Description of the image'
+              }}
+            />
+          </section>
+        </section>
+
+        {/* <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+          <DualSection 
+              section1={{
+                type: 'svg-basquiat',
+                text: 'This is some sample text for the second section.'
+              }}
+              section2={{
+                type: 'svg-arrow',
+                text: 'This is some sample text for the second section.'
+              }}
           />
         </section>
 
         <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
           <DualSection 
             section1={{
-              type: 'svg-snake',
+              type: 'svg-buffalo',
               text: 'This is some sample text for the second section.'
             }}
               section2={{
-                type: 'image',
-                src: '/src/assets/images/me.jpg',
-                alt: 'Description of the image'
+                type: 'svg-bronco',
+                text: 'This is some sample text for the second section.'
+              }}
+              />
+        </section>
+
+        <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+          <DualSection 
+            section1={{
+              type: 'svg-lion',
+              text: 'This is some sample text for the second section.'
             }}
+              section2={{
+                type: 'svg-longhorn',
+                text: 'This is some sample text for the second section.'
+              }}
           />
         </section>
+        <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+          <DualSection 
+              section1={{
+                type: 'svg-rhino',
+                text: 'This is some sample text for the second section.'
+              }}
+              section2={{
+                type: 'svg-owl',
+                text: 'This is some sample text for the second section.'
+              }}
+          />
+        </section>
+        <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+          <DualSection 
+            section1={{
+              type: 'svg-questionMark',
+              text: 'This is some sample text for the second section.'
+            }}
+              section2={{
+                type: 'svg-ram',
+                text: 'This is some sample text for the second section.'
+              }}
+          />
+        </section>
+
+
+
+
+
 
         <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
           <DualSection 
@@ -143,20 +199,7 @@ const scrollRotate = () => {
                 alt: 'Description of the image'
             }}
           />
-        </section>
-        <section className="section ilygirl" id="ILYGIRL" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
-          <DualSection 
-            section1={{
-              type: 'svg-hands',
-              text: 'This is some sample text for the second section.'
-            }}
-              section2={{
-                type: 'image',
-                src: '/src/assets/images/me.jpg',
-                alt: 'Description of the image'
-            }}
-          />
-        </section>
+        </section> */}
 
 {/* <Loading/> */}
 
@@ -172,7 +215,7 @@ const scrollRotate = () => {
       }}
     /> */}
 
-<div className="ticker-wrap">
+{/* <div className="ticker-wrap">
   <div className="ticker">
     <span className="item-collection-1">
       <span className="item">Dev Govindji ➜</span>
@@ -252,7 +295,7 @@ const scrollRotate = () => {
       <span className="item">Dev Govindji ➜</span>
     </span>
   </div>
-</div>
+</div> */}
 
         
 
@@ -263,9 +306,9 @@ const scrollRotate = () => {
               type: 'text',
               text: `Over the last decade, I transitioned from public service to software engineering, where I delivered $7M+ in recurring revenue through enterprise projects and empowered businesses with innovative tools.
 
-                In 2019, I burned out.
+                \nIn 2019, I burned out.
 
-                So, I took a year off to bet on myself.`,
+                \nSo, I took a year off to bet on myself.`,
             }}
               section2={{
                 type: 'model',
@@ -278,60 +321,31 @@ const scrollRotate = () => {
         <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
           <DualSection 
             section1={{
+              type: 'video',
+              src: '/src/assets/images/me.jpg',
+              alt: 'Description of the image'
+            }}
+            section2={{
               type: 'text',
-              text: `Early in my career, I played a pivotal role in Phil Murphy’s journey to become the 56th Governor of New Jersey. 
-              Starting as an unpaid intern when he was a relatively unknown outsider, 
-              I contributed to his election victory and earned an appointment in the Office of the Governor. 
-              From organizing town halls and managing field operations to policy research and supervising interns, I embraced every challenge. 
-              These experiences sharpened my skills in strategy, leadership, and execution, laying the foundation for my career.`
-            }}
-              section2={{
-                type: 'video',
-                src: '/src/assets/images/me.jpg',
-                alt: 'Description of the image'
-            }}
+              text: `Early in my career, I played a pivotal role in Phil Murphy’s journey to become the 56th Governor of New Jersey. Starting as an unpaid intern when he was a relatively unknown outsider, I contributed to his election victory and earned an appointment in the Office of the Governor. From organizing town halls and managing field operations to policy research and supervising interns, I embraced every challenge. These experiences sharpened my skills in strategy, leadership, and execution, laying the foundation for my career.
+
+              \n During my year off, I taught myself to code, rediscovered my love for building things, and deepened my connection to family. 
+              
+              \nI also embarked on a journey of mindfulness through Vipassana meditation, learning the value of clarity and focus.`
+            }} 
           />
         </section>
         <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
           <DualSection 
             section1={{
               type: 'text',
-              text: `During my year off, I taught myself to code, rediscovered my love for building things, and deepened my connection to family. 
-              I also embarked on a journey of mindfulness through Vipassana meditation, learning the value of clarity and focus.`
+              text: `That year transformed my career and my life. As a software engineer at Q2 eBanking, I led the development of enterprise solutions that generated $7M+ in recurring revenue, enhanced user-centric experiences, and delivered scalable tools that empowered businesses and their customers.
+              
+              \nI founded LVT8 Technologies, where I built and marketed 3D product prototypes using React Three Fiber and AWS. This venture proved that with grit and a clear vision, I could solve real-world problems across industries.`
             }}
-              section2={{
-                type: 'svg-tiger',
-            }}
-          />
-        </section>
-        <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
-          <DualSection 
-            section1={{
-              type: 'text',
-              text: `That year transformed my career and my life. 
-              As a software engineer at Q2 eBanking, I led the development of enterprise solutions that generated $7M+ in recurring revenue, 
-              enhanced user-centric experiences, and delivered scalable tools that empowered businesses and their customers.`
-            }}
-              section2={{
-                type: 'image',
-                src: '/src/assets/images/me.jpg',
-                alt: 'Description of the image'
-            }}
-          />
-        </section>
-        <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
-          <DualSection 
-            section1={{
-              type: 'text',
-              text: `I founded LVT8 Technologies, where I built and marketed 3D product prototypes using React Three Fiber and AWS. 
-              This venture proved that with grit and a clear vision, 
-              I could solve real-world problems across industries.`
-            }}
-              section2={{
-                type: 'image',
-                src: '/src/assets/images/me.jpg',
-                alt: 'Description of the image'
-            }}
+            section2={{
+              type: 'svg-tiger',
+          }}
           />
         </section>
         <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
@@ -345,12 +359,13 @@ const scrollRotate = () => {
               → Built tools that improved debugging efficiency, reducing errors and cutting delivery timelines in half.
               → Founded LVT8 Technologies, creating innovative eCommerce and event solutions for small businesses.
 
-              If you’re looking for someone who can build, lead, and scale, let’s connect.`,
+              \nIf you’re looking for someone who can build, lead, and scale, let’s connect.
+              
+              \nLet’s connect on LinkedIn, explore my GitHub, or dive deeper into my Portfolio.`,
             }}
               section2={{
-                type: 'image',
-                src: '/src/assets/images/me.jpg',
-                alt: 'Description of the image'
+                type: 'svg-arrow',
+                text: 'This is some sample text for the second section.'
             }}
           />
         </section>

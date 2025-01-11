@@ -18,15 +18,13 @@ const Hands = () => {
 
   return (
 	<>
-		{/* <path stroke="white" strokeWidth="5" fill="none"  */}
-
 		<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 			width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
 			preserveAspectRatio="xMidYMid meet">
 
 			<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
 				fill="#000000" stroke="none">
-				<path stroke="white" strokeWidth="5" fill="none" d="M3078 4595 c-283 -45 -545 -214 -670 -435 -55 -96 -81 -188 -82 -290
+				<path stroke="white" strokeWidth="25" fill="none" d="M3078 4595 c-283 -45 -545 -214 -670 -435 -55 -96 -81 -188 -82 -290
 				0 -78 4 -104 22 -146 27 -60 92 -127 145 -149 178 -74 483 37 686 250 l73 77
 				56 -7 c84 -9 210 -50 264 -84 149 -94 246 -269 288 -519 16 -89 20 -161 20
 				-330 0 -120 -4 -221 -8 -227 -4 -6 -113 -10 -287 -11 -428 -1 -805 -37 -1194

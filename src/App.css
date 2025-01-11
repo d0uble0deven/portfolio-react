@@ -60,7 +60,7 @@ body {
   transform: rotate(-90deg) translateX(-100vh);
   overflow-x: hidden;
   overflow-y: scroll;
-  border: magenta 5px dotted;
+  /* border: magenta 5px dotted; */
   margin: 0;
 }
 

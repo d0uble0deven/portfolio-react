@@ -117,8 +117,9 @@ video {
   margin: 0 500px; /* added by me */
 }
 
-#ILYGIRL {
+#HOME {
   margin: 0 500px 0 0; /* added by me */
+  z-index: 100;
 }
 
 @media (max-width: 768px) {
@@ -130,7 +131,22 @@ video {
 }
 
 section {
-  border: red 5px dotted;
+  /* border: red 5px dotted; */
+}
+
+.header {
+  /* width: fit-content;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  margin: 5vw auto 0 auto; */
+  margin: 5vw 5vw 5vw 5vw;
+  width: fit-content;
+  height: auto;
+  /* width: 30px;
+  height: 30px; */
+  position: absolute;
+  /* animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate; */
 }
 
 .title-container {
@@ -1187,6 +1203,7 @@ section {
   height: 3.5rem;
   background-color: black;
   /* background-color: #ffca46; */
+  z-index: 1;
 }
 .ticker {
   display: inline-block;

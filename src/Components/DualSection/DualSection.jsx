@@ -10,6 +10,24 @@ import Tusks from '../SVGComponents/Tusks';
 import Snake from '../SVGComponents/Snake';
 import Shark from '../SVGComponents/Shark';
 import Stallion from '../SVGComponents/Stallion';
+import Arrow from '../SVGComponents/Arrow';
+import Basquiat from '../SVGComponents/Basquiat';
+import Bronco from '../SVGComponents/Bronco';
+import Buffalo from '../SVGComponents/Buffalo';
+import CityScape from '../SVGComponents/CityScape';
+import Daisy from '../SVGComponents/Daisy';
+import Elephant from '../SVGComponents/Elephant';
+import Gorilla from '../SVGComponents/Gorilla';
+import Grizzly from '../SVGComponents/Grizzly';
+import Lion from '../SVGComponents/Lion';
+import Longhorn from '../SVGComponents/Longhorn';
+import Monkey from '../SVGComponents/Monkey';
+import Owl from '../SVGComponents/Owl';
+import QuestionMark from '../SVGComponents/QuestionMark';
+import Ram from '../SVGComponents/Ram';
+import Rhino from '../SVGComponents/Rhino';
+import Rooster from '../SVGComponents/Rooster';
+import SeaHorse from '../SVGComponents/SeaHorse';
 import Smartphone from '../Smartphone/Smartphone';
 
 const Model = ({ url }) => {
@@ -66,10 +84,10 @@ const Model = ({ url }) => {
           return (
           <>
           <div className={styles.text}>
-            <div>
+            {/* <div>
                 <h2 className={styles.line1}>line1</h2>
                 <h2 className={styles.line2}>line2</h2>
-            </div>
+            </div> */}
             {content.text}
 
           </div>
@@ -87,6 +105,42 @@ const Model = ({ url }) => {
               return <Shark />;
         case 'svg-stallion':
               return <Stallion />;
+        case 'svg-arrow':
+              return <Arrow />;
+        case 'svg-basquiat':
+              return <Basquiat />;
+        case 'svg-bronco':
+              return <Bronco />;
+        case 'svg-buffalo':
+              return <Buffalo />;
+        case 'svg-cityScape':
+              return <CityScape />;
+        case 'svg-daisy':
+              return <Daisy />;
+        case 'svg-elephant':
+              return <Elephant />;
+        case 'svg-gorilla':
+              return <Gorilla />;
+        case 'svg-grizzly':
+              return <Grizzly />;
+        case 'svg-lion':
+              return <Lion />;
+        case 'svg-longhorn':
+              return <Longhorn />;
+        case 'svg-monkey':
+              return <Monkey />;
+        case 'svg-owl':
+              return <Owl />;
+        case 'svg-questionMark':
+              return <QuestionMark />;
+        case 'svg-ram':
+              return <Ram />;
+        case 'svg-rhino':
+              return <Rhino />;
+        case 'svg-rooster':
+              return <Rooster />;
+        case 'svg-seaHorse':
+              return <SeaHorse />;
               // return <Loading />;
             //   return <img src={content.src} alt={content.alt || ''} className={styles.svg} />;
         case 'model':
