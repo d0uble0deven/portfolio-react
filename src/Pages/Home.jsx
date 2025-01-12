@@ -28,6 +28,7 @@ import Loading from '../Components/SVGComponents/Hands';
 import DualSection from '../Components/DualSection/DualSection';
 
 import me from '../assets/images/me.jpg';
+import PortfolioShowcase from './PortfolioShowcase';
 
 
 const Home = () => {
@@ -315,7 +316,8 @@ const scrollRotate = () => {
               section2={{
                 type: 'model',
                 // src: '/src/assets/models/DavidHeadModel.glb',
-                src: '/src/assets/models/DavidHeadModel.gltf',
+                src: 'public/models/DavidHeadModel.gltf',
+                // src: '/src/assets/models/DavidHeadModel.gltf',
                 // src: '/src/assets/models/spaceship_model.gltf',
                 alt: 'spaceship model'
             }}
@@ -490,7 +492,12 @@ MAIN
 
           </div>
           </div> */}
-          
+
+
+            {/* <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+              <PortfolioShowcase/>
+            </section> */}
+            
           </div>
       </div>
     </>
