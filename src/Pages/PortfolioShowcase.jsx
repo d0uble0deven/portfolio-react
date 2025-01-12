@@ -8,10 +8,12 @@ const PortfolioShowcase = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const openModal = (project) => {
+    console.log('openModal')
     setSelectedProject(project);
   };
 
   const closeModal = () => {
+    console.log('closeModal')
     setSelectedProject(null);
   };
 

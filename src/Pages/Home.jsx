@@ -493,10 +493,10 @@ MAIN
           </div>
           </div> */}
 
-
-            {/* <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
+          
+            <section className="section ilygirl" data-bg-color="rgba(0, 0, 0, 0)" data-highlight-color="rgb(255, 0, 149)" style={{"--scroll": 0.453893}}>
               <PortfolioShowcase/>
-            </section> */}
+            </section>
             
           </div>
       </div>

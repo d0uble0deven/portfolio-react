@@ -25,7 +25,7 @@ const Tiger = () => {
 				preserveAspectRatio="xMidYMid meet">
 
 				<g transform="translate(0.000000,512.000000) scale(0.10000,-0.10000)">
-					<path class="tiger-path" stroke="white" strokeWidth="25" fill="none"  d="M3540 4971 c-70 -22 -114 -59 -144 -119 -10 -19 -54 -200 -100 -403
+					<path className="tigerPath" stroke="white" strokeWidth="25" fill="none"  d="M3540 4971 c-70 -22 -114 -59 -144 -119 -10 -19 -54 -200 -100 -403
 					-45 -203 -85 -372 -88 -375 -3 -3 -24 0 -46 5 -44 12 -98 65 -108 106 -17 69
 					36 156 107 175 50 14 50 36 2 49 -266 70 -476 108 -666 120 -282 19 -528 -40
 					-671 -159 -75 -62 -112 -119 -88 -133 4 -3 54 6 112 19 247 56 597 72 745 34

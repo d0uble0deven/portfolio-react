@@ -7,9 +7,9 @@ const PortfolioData = [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
-    video: "https://example.com/project1-video.mp4",
-    github: "https://github.com/yourusername/project1",
-    deployed: "https://project1.example.com",
+    // video: "https://example.com/project1-video.mp4",
+    github: "https://github.com/d0uble0deven/chat-ai-react-node",
+    deployed: "https://secret-waters-32055-a87d6cb73364.herokuapp.com/",
     description:
       "This is a long description of Project 1. It includes details about the project's purpose, technologies used, and any challenges faced during development. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
@@ -21,7 +21,7 @@ const PortfolioData = [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
     ],
-    video: "https://example.com/project2-video.mp4",
+    // video: "https://example.com/project2-video.mp4",
     github: "https://github.com/yourusername/project2",
     deployed: "https://project2.example.com",
     description:
