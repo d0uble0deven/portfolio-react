@@ -27,6 +27,8 @@ import '../App.css';
 import Loading from '../Components/SVGComponents/Hands';
 import DualSection from '../Components/DualSection/DualSection';
 
+import me from '../assets/images/me.jpg';
+
 
 const Home = () => {
 
@@ -112,7 +114,7 @@ const scrollRotate = () => {
               }}
                 section2={{
                   type: 'image',
-                  src: '/src/assets/images/me.jpg',
+                  src: me,
                   alt: 'Description of the image'
               }}
             />
@@ -312,7 +314,9 @@ const scrollRotate = () => {
             }}
               section2={{
                 type: 'model',
-                src: '/src/assets/models/spaceship_model.gltf',
+                // src: '/src/assets/models/DavidHeadModel.glb',
+                src: '/src/assets/models/DavidHeadModel.gltf',
+                // src: '/src/assets/models/spaceship_model.gltf',
                 alt: 'spaceship model'
             }}
           />
@@ -322,7 +326,6 @@ const scrollRotate = () => {
           <DualSection 
             section1={{
               type: 'video',
-              src: '/src/assets/images/me.jpg',
               alt: 'Description of the image'
             }}
             section2={{

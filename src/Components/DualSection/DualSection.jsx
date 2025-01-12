@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect, useState, useRef } from 'react';
 import { Canvas, useFrame, useLoader } from '@react-three/fiber';
-import { useScroll } from '@react-three/drei';
+import { useScroll, OrbitControls } from '@react-three/drei';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
 import styles from './DualSection.module.css';
@@ -29,6 +29,9 @@ import Rhino from '../SVGComponents/Rhino';
 import Rooster from '../SVGComponents/Rooster';
 import SeaHorse from '../SVGComponents/SeaHorse';
 import Smartphone from '../Smartphone/Smartphone';
+
+// import * as DavidHeadModel from '../../assets/models/DavidHeadModel.gltf';
+
 
 const Model = ({ url }) => {
     const [gltf, setGltf] = useState(null);
@@ -143,17 +146,23 @@ const Model = ({ url }) => {
               return <SeaHorse />;
               // return <Loading />;
             //   return <img src={content.src} alt={content.alt || ''} className={styles.svg} />;
-        case 'model':
-          return (
+      case 'model':
+        return (
+          <div className={styles.modelContainer}>
+            {content.src}
             <Canvas className={styles.model}>
-              <ambientLight intensity={0.5} />
+              <OrbitControls />
+              <ambientLight intensity={10.5} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <pointLight position={[-10, -10, -10]} />
-              <Suspense fallback={null}>
-                <Model url={content.src} />
+              <Suspense fallback={"loading..."}>
+                {/* <Model url={DavidHeadModel} scale={[100,100,100]} /> */}
+                <Model url={content.src} scale={[100,100,100]} />
+                {/* <Model url={'../../assets/models/DavidHeadModel.gltf'} scale={[100,100,100]} /> */}
               </Suspense>
             </Canvas>
-          );
+          </div>
+        );
         default:
           return null;
       }
