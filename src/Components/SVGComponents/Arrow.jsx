@@ -14,8 +14,16 @@ const Arrow = () => {
     //     zIndex: '100',
     // }
 
-    console.log('Loading...')
-
+    var path = document.querySelector('.arrowPath');  
+console.log('arrowPath:', path);
+if (path) {
+  var length = path.getTotalLength();
+  console.log('arrowPath Length:', length); // Should log the total length
+  path.style.strokeDasharray = length;
+  path.style.strokeDashoffset = length;
+} else {
+  console.error('arrowPath not found!');
+}
   return (
 	<>
 		<svg version="1.0" xmlns="http://www.w3.org/2000/svg"

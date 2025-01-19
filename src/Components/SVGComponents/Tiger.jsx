@@ -14,7 +14,16 @@ const Tiger = () => {
     //     zIndex: '100',
     // }
 
-    console.log('Loading...')
+    var path = document.querySelector('.tigerPath');  
+console.log('tigerPath:', path);
+if (path) {
+  var length = path.getTotalLength();
+  console.log('tigerPath Length:', length); // Should log the total length
+  path.style.strokeDasharray = length;
+  path.style.strokeDashoffset = length;
+} else {
+  console.error('tigerPath not found!');
+}
 
   return (
 	<>
