@@ -15,34 +15,26 @@ const Hands = () => {
     // }
 
 	useEffect(() => {
-		console.log(loadingStyles.handsPath); 
-		
 		const path = document.querySelector(`.${loadingStyles.handsPath}`);
-		console.log('strokeDasharray (computed):', window.getComputedStyle(path).strokeDasharray);
-		console.log('strokeDashoffset (computed):', window.getComputedStyle(path).strokeDashoffset);
-
 		if (path) {
 		  const length = path.getTotalLength();
-		  console.log('handsPath Length in Safari:', length);
+		  console.log('handsPath Length:', length);
 	  
 		  // Apply styles dynamically
-		  path.style.strokeDasharray = length;
-		  path.style.strokeDashoffset = length;
-
-			// Safari-specific workaround to trigger repaint
-			setTimeout(() => {
-				path.style.strokeWidth = "4.9999"; // Tiny change to trigger repaint
-				path.style.strokeWidth = "5";
-			}, 100);
-	  
-		//   // Force a reflow
-		//   path.getBoundingClientRect(); // Trigger reflow
-	  
-		//   // Add animation class (optional)
-		//   path.style.transition = 'stroke-dashoffset 5s ease-in-out';
-		//   path.style.strokeDashoffset = '0';
+		  path.style.strokeDasharray = `${length}`;
+		  path.style.strokeDashoffset = `${length}`;
+		  
+		  // Trigger animation explicitly
+		  requestAnimationFrame(() => {
+			path.style.strokeDashoffset = '0';
+		  });
+		  
+		//   setTimeout(() => {
+		// 	path.style.strokeWidth = '4.9999';
+		// 	path.style.strokeWidth = '5';
+		//   }, 50);
 		} else {
-		  console.error('handsPath not found in Safari');
+		  console.error('handsPath not found!');
 		}
 	  }, []);
 
@@ -79,7 +71,19 @@ const Hands = () => {
 					c-14.4,2.8-14.2,20.6-12.5,31.9c7.2,47.5,53.2,108.5,55.3,121.5c-3.6-22.2-5.9-46.4-17.7-66.1c-3.7-6.3-11.7-17.4-20.5-15.6
 					c-15.3,3.1-6.8,41.1-4,71c1.7,18.4,3.6,35.7,4.1,54.1c12.2-6.6,26.6-7.7,40-9c18.4-1.8,72.1-19.7,81-22.4
 					c7.1-2.1,23.3-4.6,23.7-14.5c-1.2-10.2-57.2,10.9-113.5,40.8c-57.2,30.4-115.6,70.5-119.8,97.7c-4.7,31,19.8,63.7,22.5,94.7
-					c1.9,21.2-0.8,173.5,26.2,181.8c1.4,0.4,517.2,0.5,518.8,0" />
+					c1.9,21.2-0.8,173.5,26.2,181.8c1.4,0.4,517.2,0.5,518.8,0" 
+					>
+
+<animate
+    attributeName="stroke-dashoffset"
+    from="8085"
+    to="0"
+    dur="5s"
+    repeatCount="indefinite"
+    keySplines="0.42 0 0.58 1"
+    calcMode="spline"
+  />
+					</path>
 		</svg>
 	</>
     
