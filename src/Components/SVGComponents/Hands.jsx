@@ -14,16 +14,16 @@ const Hands = () => {
     //     zIndex: '100',
     // }
 
-    var path = document.querySelector('.handsPath');  
-console.log('handsPath:', path);
-if (path) {
-  var length = path.getTotalLength();
-  console.log('handsPath Length:', length); // Should log the total length
-  path.style.strokeDasharray = length;
-  path.style.strokeDashoffset = length;
-} else {
-  console.error('handsPath not found!');
-}
+//     var path = document.querySelector('.handsPath');  
+// console.log('handsPath:', path);
+// if (path) {
+//   var length = path.getTotalLength();
+//   console.log('handsPath Length:', length); // Should log the total length
+//   path.style.strokeDasharray = length;
+//   path.style.strokeDashoffset = length;
+// } else {
+//   console.error('handsPath not found!');
+// }
 
   return (
 	<>

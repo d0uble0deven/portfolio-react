@@ -1,8 +1,8 @@
 .arrowPath {
-  /* stroke-dasharray: 24579.318359375;
-  stroke-dashoffset: 24579.318359375; */
-  stroke-dasharray: 8085;
-  stroke-dashoffset: 8085;
+  stroke-dasharray: 24579.318359375;
+  stroke-dashoffset: 24579.318359375;
+  /* stroke-dasharray: 8085;
+  stroke-dashoffset: 8085; */
 
   /* Draw once and done. */
   /* animation: dash 5s linear forwards; */

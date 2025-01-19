@@ -14,16 +14,16 @@ const Tiger = () => {
     //     zIndex: '100',
     // }
 
-    var path = document.querySelector('.tigerPath');  
-console.log('tigerPath:', path);
-if (path) {
-  var length = path.getTotalLength();
-  console.log('tigerPath Length:', length); // Should log the total length
-  path.style.strokeDasharray = length;
-  path.style.strokeDashoffset = length;
-} else {
-  console.error('tigerPath not found!');
-}
+//     var path = document.querySelector('.tigerPath');  
+// console.log('tigerPath:', path);
+// if (path) {
+//   var length = path.getTotalLength();
+//   console.log('tigerPath Length:', length); // Should log the total length
+//   path.style.strokeDasharray = length;
+//   path.style.strokeDashoffset = length;
+// } else {
+//   console.error('tigerPath not found!');
+// }
 
   return (
 	<>
