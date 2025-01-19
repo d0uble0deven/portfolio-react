@@ -32,7 +32,7 @@ const Arrow = () => {
 
 			<g transform="translate(512.000000, 512.000000) scale(-0.100000,-0.100000)"
 			fill="#000000" stroke="none">
-				<path className='arrowPath' stroke="white" strokeWidth="25" fill="none" d="M1703 3268 c-644 -646 -803 -810 -813 -841 -11 -34 -10 -43 11 -83
+				<path className={loadingStyles.arrowPath} stroke="white" strokeWidth="25" fill="none" d="M1703 3268 c-644 -646 -803 -810 -813 -841 -11 -34 -10 -43 11 -83
 				26 -48 1408 -1452 1464 -1486 59 -35 148 -10 179 50 19 38 29 298 13 334 -12
 				28 -185 210 -764 805 -196 202 -323 340 -323 351 0 13 164 178 448 453 246
 				238 493 478 549 532 89 87 105 99 127 93 l26 -6 0 -433 c1 -237 5 -452 9 -477
