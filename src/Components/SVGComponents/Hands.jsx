@@ -12,16 +12,16 @@ const Hands = () => {
       path.style.strokeDasharray = `${length}`;
       path.style.strokeDashoffset = `${length}`;
 
-      // Trigger animation explicitly
-      requestAnimationFrame(() => {
-        path.style.strokeDashoffset = "0";
-      });
-
-      // Safari-specific workaround: Repaint with a minor adjustment
+      // Explicitly trigger animation in Safari
       setTimeout(() => {
-        path.style.strokeWidth = "4.9999"; // Force repaint
-        path.style.strokeWidth = "5";
+        path.style.strokeDashoffset = "0";
       }, 100);
+
+      // Force Safari to repaint by toggling styles
+      path.style.strokeWidth = "4.9999";
+      setTimeout(() => {
+        path.style.strokeWidth = "5";
+      }, 200);
     } else {
       console.error("handsPath not found!");
     }
@@ -29,14 +29,22 @@ const Hands = () => {
 
   return (
     <>
-      <svg viewBox="0 0 1205 632.2">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 1205 632.2"
+        style={{
+          overflow: "visible", // Prevent Safari from clipping the view
+          transform: "translateZ(0)", // Force hardware acceleration
+        }}
+      >
         <path
           style={{
-            strokeDasharray: "8085.5400390625",
-            strokeDashoffset: "8085.5400390625",
+            strokeDasharray: "8085.54",
+            strokeDashoffset: "8085.54",
             animation: "dash 5s ease-in-out infinite alternate",
-            WebkitAnimation: "dash 5s ease-in-out infinite alternate", // Safari prefix
-            transform: "translateZ(0)", // Force hardware acceleration
+            WebkitAnimation: "dash 5s ease-in-out infinite alternate",
+            willChange: "stroke-dashoffset",
           }}
           className={loadingStyles.handsPath}
           stroke="white"
