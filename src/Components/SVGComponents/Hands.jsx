@@ -15,15 +15,32 @@ const Hands = () => {
     // }
 
 	useEffect(() => {
+		console.log(loadingStyles.handsPath); 
+		
 		const path = document.querySelector(`.${loadingStyles.handsPath}`);
-		console.log('handsPath: ', path);
-		console.log('strokeDasharray:', path.style.strokeDasharray);
-		console.log('strokeDashoffset:', path.style.strokeDashoffset);
+		console.log('strokeDasharray (computed):', window.getComputedStyle(path).strokeDasharray);
+		console.log('strokeDashoffset (computed):', window.getComputedStyle(path).strokeDashoffset);
+
 		if (path) {
 		  const length = path.getTotalLength();
 		  console.log('handsPath Length in Safari:', length);
+	  
+		  // Apply styles dynamically
 		  path.style.strokeDasharray = length;
 		  path.style.strokeDashoffset = length;
+
+			// Safari-specific workaround to trigger repaint
+			setTimeout(() => {
+				path.style.strokeWidth = "4.9999"; // Tiny change to trigger repaint
+				path.style.strokeWidth = "5";
+			}, 100);
+	  
+		//   // Force a reflow
+		//   path.getBoundingClientRect(); // Trigger reflow
+	  
+		//   // Add animation class (optional)
+		//   path.style.transition = 'stroke-dashoffset 5s ease-in-out';
+		//   path.style.strokeDashoffset = '0';
 		} else {
 		  console.error('handsPath not found in Safari');
 		}
@@ -33,7 +50,15 @@ const Hands = () => {
 	<>
 
 		<svg viewBox="0 0 1205 632.2">
-			<path className={loadingStyles.handsPath} stroke="white" strokeWidth="5" fill="none" d="M2.5,627.1c0.3-0.8,414.1,1.1,414.4,0.3c19.8-48.8,28.1-111.6,30.9-163.5c1.6-30.4-10.5-54.6-33.8-74.4
+			<path 
+			  style={{
+				strokeDasharray: "8085.5400390625",
+				strokeDashoffset: "8085.5400390625",
+				animation: "dash 5s ease-in-out infinite alternate",
+				WebkitAnimation: "dash 5s ease-in-out infinite alternate", // Safari prefix
+				transform: "translateZ(0)", // Force hardware acceleration
+			  }}
+			  className={loadingStyles.handsPath} stroke="white" strokeWidth="5" fill="none" d="M2.5,627.1c0.3-0.8,414.1,1.1,414.4,0.3c19.8-48.8,28.1-111.6,30.9-163.5c1.6-30.4-10.5-54.6-33.8-74.4
 					c-37.3-31.8-81.1-59.4-125.7-79.2c-45.9-20.4-16.2-76.5-2.2-111.6c7.4-18.4,11.3-42.5,22.1-59c13.3-20.3,33-39.2,51.8-54.5
 					c16.4-13.4,31.9-25.4,46.2-41c9.5-10.4,29.3-38.9,46-37.6c37.5,3-11.3,72.3-20,82.7c-8.9,10.7-41,49-60.5,85
 					c0.6-40.2,31.2-55.9,58.2-95.1c74.8-108.5,95.1-71,78.1-31c-31.7,74.7-73,116.3-83.9,130.6c-8.7,11.3-15.6,30.5-28.3,37.2

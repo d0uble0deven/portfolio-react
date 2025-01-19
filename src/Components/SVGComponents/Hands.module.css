@@ -1,4 +1,5 @@
 .handsPath {
+  will-change: stroke-dashoffset;
   stroke-dasharray: 8085.5400390625;
   stroke-dashoffset: 8085.5400390625;
   /* stroke-dasharray: 8085;
@@ -14,6 +15,23 @@
 }
 
 @-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 8085;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 8085;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+/* @-webkit-keyframes dash {
   from {
     stroke-dashoffset: 8085;
   }
@@ -29,4 +47,4 @@
   to {
     stroke-dashoffset: 0;
   }
-}
+} */
