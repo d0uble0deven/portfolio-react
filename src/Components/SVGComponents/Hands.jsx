@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import loadingStyles from './Hands.module.css';
 
@@ -14,16 +14,20 @@ const Hands = () => {
     //     zIndex: '100',
     // }
 
-//     var path = document.querySelector('.handsPath');  
-// console.log('handsPath:', path);
-// if (path) {
-//   var length = path.getTotalLength();
-//   console.log('handsPath Length:', length); // Should log the total length
-//   path.style.strokeDasharray = length;
-//   path.style.strokeDashoffset = length;
-// } else {
-//   console.error('handsPath not found!');
-// }
+	useEffect(() => {
+		const path = document.querySelector(`.${loadingStyles.handsPath}`);
+		console.log('handsPath: ', path);
+		console.log('strokeDasharray:', path.style.strokeDasharray);
+		console.log('strokeDashoffset:', path.style.strokeDashoffset);
+		if (path) {
+		  const length = path.getTotalLength();
+		  console.log('handsPath Length in Safari:', length);
+		  path.style.strokeDasharray = length;
+		  path.style.strokeDashoffset = length;
+		} else {
+		  console.error('handsPath not found in Safari');
+		}
+	  }, []);
 
   return (
 	<>

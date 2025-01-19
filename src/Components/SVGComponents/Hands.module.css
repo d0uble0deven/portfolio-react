@@ -1,14 +1,25 @@
 .handsPath {
-  /* stroke-dasharray: 8085.5400390625;
-  stroke-dashoffset: 8085.5400390625; */
-  stroke-dasharray: 8085;
-  stroke-dashoffset: 8085;
+  stroke-dasharray: 8085.5400390625;
+  stroke-dashoffset: 8085.5400390625;
+  /* stroke-dasharray: 8085;
+  stroke-dashoffset: 8085; */
 
   /* Draw once and done. */
   /* animation: dash 5s linear forwards; */
 
   /* Keep drawing */
   animation: dash 5s ease-in-out infinite alternate;
+  -webkit-animation: dash 5s ease-in-out infinite alternate; /* Add this for Safari */
+  transform: translateZ(0); /* Force hardware acceleration */
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 8085;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 @keyframes dash {
