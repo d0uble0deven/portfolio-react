@@ -29,10 +29,10 @@ const Hands = () => {
 			path.style.strokeDashoffset = '0';
 		  });
 		  
-		//   setTimeout(() => {
-		// 	path.style.strokeWidth = '4.9999';
-		// 	path.style.strokeWidth = '5';
-		//   }, 50);
+		  setTimeout(() => {
+			path.style.strokeWidth = '4.9999';
+			path.style.strokeWidth = '5';
+		  }, 50);
 		} else {
 		  console.error('handsPath not found!');
 		}
