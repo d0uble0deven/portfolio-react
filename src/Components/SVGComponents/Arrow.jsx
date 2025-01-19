@@ -2,28 +2,10 @@ import React from 'react'
 
 import loadingStyles from './Arrow.module.css';
 
-// import 'src/assets/images/tiger.svg';
 
 
 const Arrow = () => {
 
-    // const loadingStyles = {
-    //     width: '100vw',
-    //     height: '100vh',
-    //     backgroundColor: '#F06446',
-    //     zIndex: '100',
-    // }
-
-//     var path = document.querySelector('.arrowPath');  
-// console.log('arrowPath:', path);
-// if (path) {
-//   var length = path.getTotalLength();
-//   console.log('arrowPath Length:', length); // Should log the total length
-//   path.style.strokeDasharray = length;
-//   path.style.strokeDashoffset = length;
-// } else {
-//   console.error('arrowPath not found!');
-// }
   return (
 	<>
 		<svg version="1.0" xmlns="http://www.w3.org/2000/svg"

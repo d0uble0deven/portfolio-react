@@ -2,28 +2,11 @@ import React from 'react'
 
 import loadingStyles from './Tiger.module.css';
 
-// import 'src/assets/images/tiger.svg';
+// import 'src/assets/images/Tiger.svg';
 
 
 const Tiger = () => {
 
-    // const loadingStyles = {
-    //     width: '100vw',
-    //     height: '100vh',
-    //     backgroundColor: '#F06446',
-    //     zIndex: '100',
-    // }
-
-//     var path = document.querySelector('.tigerPath');  
-// console.log('tigerPath:', path);
-// if (path) {
-//   var length = path.getTotalLength();
-//   console.log('tigerPath Length:', length); // Should log the total length
-//   path.style.strokeDasharray = length;
-//   path.style.strokeDashoffset = length;
-// } else {
-//   console.error('tigerPath not found!');
-// }
 
   return (
 	<>
