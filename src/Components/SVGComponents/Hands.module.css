@@ -1,6 +1,8 @@
 .handsPath {
-  stroke-dasharray: 8085;
-  stroke-dashoffset: 8085;
+  stroke-dasharray: 8085.5400390625;
+  stroke-dashoffset: 8085.5400390625;
+  /* stroke-dasharray: 8085;
+  stroke-dashoffset: 8085; */
 
   /* Draw once and done. */
   /* animation: dash 5s linear forwards; */
