@@ -316,7 +316,7 @@ const scrollRotate = () => {
               section2={{
                 type: 'model',
                 // src: '/src/assets/models/DavidHeadModel.glb',
-                src: 'public/models/DavidHeadModel.gltf',
+                src: '/models/DavidHeadModel.gltf',
                 // src: '/src/assets/models/DavidHeadModel.gltf',
                 // src: '/src/assets/models/spaceship_model.gltf',
                 alt: 'spaceship model'
